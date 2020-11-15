@@ -1,0 +1,7 @@
+/.env
+/.vscode
+node_modules
+/publish.sh
+dist
+config.json
+config2.json
