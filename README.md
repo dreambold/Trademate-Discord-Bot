@@ -1,6 +1,6 @@
 # Trademate Website
 
-This is the source-code for the Trademate bot + the Discord bot.
+Trademate bot + the Discord bot.
 
 - Backend and bot code is in `tm-backend/` (TypeScript)
 - Bot frontend and dashboard is in `tm-frontend/` (VueJS)
@@ -29,4 +29,4 @@ Logging is done with `bunyan`. It will always output JSON. To pretty-print it wh
 
 The software will automatically serve the frontend files, only in their compiled form from `tm-frontend/dist/`.
 
-There are separate `WEB_BASE_URI` and `API_BASE_URI` env variables: when you program locally VueJS will serve the front-end on a different port, but it needs to know where the API runs at (and vice versa). In production, `WEB_BASE_URI` and `API_BASE_URI` will be identical.
+There are separate `WEB_BASE_URI` and `API_BASE_URI` env variables: when program locally VueJS will serve the front-end on a different port, but it needs to know where the API runs at (and vice versa). In production, `WEB_BASE_URI` and `API_BASE_URI` will be identical.
